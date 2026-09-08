@@ -6,6 +6,12 @@ terraform {
         }
         
     }
+     backend "azurerm" {
+    resource_group_name  = "rg-paglabackend"
+    storage_account_name = "paglabackend"
+    container_name       = "tfstate"
+    key                  = "terraform.tfstate"
+  }
 }
 provider "azurerm" {
     features {}
