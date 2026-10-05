@@ -25,3 +25,12 @@ vnets = {
     addspc   = ["10.1.0.0/16"]
   }
 }
+
+storage_accounts = {
+  st1 = {
+    storage_name             = "stdevopsprime001"
+    resource_group_key       = "rg1"
+    account_tier             = "Standard"
+    account_replication_type = "LRS"
+  }
+}
