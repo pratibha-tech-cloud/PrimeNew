@@ -22,6 +22,8 @@ resource_group = {
   # }
 }
 
+
+
 vnets = {
   vnet1 = {
     vnetname = "vnet-devops"
