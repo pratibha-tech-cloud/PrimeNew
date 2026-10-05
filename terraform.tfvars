@@ -12,6 +12,10 @@ resource_group = {
     resourcename = "rg-prod"
     location     = "West US"
   }
+  rg4 = {
+    resourcename = "rg-new"
+    location     = "West US"
+  }
 }
 
 vnets = {
