@@ -21,3 +21,4 @@ resource "azurerm_storage_account" "storageblock" {
   account_replication_type = each.value.account_replication_type
   min_tls_version          = "TLS1_2"
 }
+
