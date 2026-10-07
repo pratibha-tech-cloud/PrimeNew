@@ -5,7 +5,7 @@
 
 trigger:
 - main
-pool:  NewAgentPool
+pool:  Evening
 steps:
 - task: TerraformInstaller@1
   inputs:
