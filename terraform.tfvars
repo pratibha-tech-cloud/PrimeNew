@@ -24,6 +24,10 @@ resource_group = {
     resourcename = "rg-Prime"
     location     = "Central India"
   }
+  rg6 = {
+    resourcename = "prime-cloud"
+    location     = "Central India"
+  }
 }
 
 
