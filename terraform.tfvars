@@ -16,10 +16,14 @@ resource_group = {
     resourcename = "rg-new"
     location     = "West US"
   }
-  # rg5 = {
-  #   resourcename = "rg-rg5"
-  #   location     = "Central India"
-  # }
+  rg5 = {
+    resourcename = "rg-rg6"
+    location     = "Central India"
+  }
+  rg6 = {
+    resourcename = "rg-Prime"
+    location     = "Central India"
+  }
 }
 
 
