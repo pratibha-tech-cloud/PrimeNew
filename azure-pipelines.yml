@@ -5,7 +5,7 @@
 
 trigger:
 - main
-pool:  NewAgentPool
+pool:  cloud-hub
 steps:
 - task: TerraformInstaller@1
   inputs:
@@ -14,7 +14,7 @@ steps:
   inputs:
     provider: 'azurerm'
     command: 'init'
-    backendServiceArm: 'FreshSc'
+    backendServiceArm: 'cloud-lab'
     backendAzureRmOverrideSubscriptionID: '73c9b1d1-79bb-4bf7-8b46-db211fe52d6f'
     backendAzureRmResourceGroupName: 'rg-paglabackend'
     backendAzureRmStorageAccountName: 'paglabackend2'
@@ -29,6 +29,6 @@ steps:
     provider: 'azurerm'
     command: 'apply'
     commandOptions: '--auto-approve'
-    environmentServiceNameAzureRM: 'FreshSc'
+    environmentServiceNameAzureRM: 'cloud-lab'
     environmentAzureRmOverrideSubscriptionID: 'bc304d74-dfec-4f01-af8f-f598f6619edb'
     environmentAzureRmUseIdTokenGeneration: true
