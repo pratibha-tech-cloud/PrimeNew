@@ -8,24 +8,8 @@ resource_group = {
     resourcename = "rg-test"
     location     = "West US"
   }
-  rg3 = {
-    resourcename = "rg-prod"
-    location     = "West US"
-  }
-  rg4 = {
-    resourcename = "rg-new"
-    location     = "West US"
-  }
-  rg5 = {
-    resourcename = "rg-rg6"
-    location     = "Central India"
-  }
-  rg6 = {
-    resourcename = "rg-Prime"
-    location     = "Central India"
-  }
 }
-
+  
 
 
 vnets = {
