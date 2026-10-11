@@ -39,6 +39,6 @@ stages:
               inputs:
                 provider: 'azurerm'
                 command: 'apply'
-                commandOptions: 'auto-approve'
+                commandOptions: '-auto-approve'
                 environmentServiceNameAzureRM: 'WednesdaySC'
                 environmentAzureRmOverrideSubscriptionID: '73c9b1d1-79bb-4bf7-8b46-db211fe52d6f'
