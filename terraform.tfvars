@@ -4,6 +4,8 @@ resource_group = {
     location     = "East US"
   }
 
+  
+
   rg2 = {
     resourcename = "rg-test"
     location     = "West US"
